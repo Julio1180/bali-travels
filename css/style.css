@@ -1,0 +1,643 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Franklin Gothic Medium";
+    font-weight: 500;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/*navegacion*/
+header {
+    background-color: lightgray;
+    padding: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font: 1.2em sans-serif;
+
+}
+
+
+nav li:not(:last-child) {
+    margin-right: 20px;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+h3 {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+
+/*navegacion*/
+
+/*ventana moda index*/
+
+/* The Modal (background) */
+.modal {
+    display: flex;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 50px;
+    border: 1px solid #888;
+    width: 80%;
+    background-image: url(/images/bali7.jpg);
+
+    /* Could be more or less, depending on screen size */
+}
+
+
+
+/*show window*/
+.modal-visible {
+    display: flex;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*ventana modal index*/
+
+/*contenedor*/
+
+.contenedor {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.contenedor img {
+    width: 100%;
+    display: block;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor p {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    font-size: 5em;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 250px;
+    transition: left 1s;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.contenedor:hover p {
+    left: 0;
+}
+
+/*contenedor*/
+
+/*contenido*/
+.contenido {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+    font-size: 1.2em;
+}
+
+img.contenido {
+    margin-left: 15%;
+}
+
+/*contenido*/
+
+/* seccion titulo WHAT THEY SAY ABOUT US*/
+
+.titulo {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1em;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+
+    padding-bottom: 20px;
+
+}
+
+.titulo h2 {
+    padding-top: 20px;
+}
+
+.uno p {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1.2em;
+    padding-top: 10px;
+    color: black;
+    text-align: center;
+    left: 10px;
+    align-content: start;
+    padding-bottom: 50px;
+
+}
+
+/* seccion titulo WHAT THEY SAY ABOUT US*/
+
+/*redes sociales*/
+
+.contenedor-redes {
+    background-color: lightgray;
+
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.redessociales {
+    font-size: 1em;
+    padding-bottom: 20px;
+}
+
+.redesuno {
+    flex-grow: 1;
+}
+
+.redesuno img {
+    display: block;
+    width: 100%;
+}
+
+.contenedor-redes {
+    display: flex;
+}
+
+.redesboton {
+    display: flex;
+    margin-left: 45%;
+    padding-top: 20px;
+    width: 90px;
+    height: 40px;
+}
+
+/*redes sociales*/
+
+/*email*/
+.mail h2 {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 3em;
+    color: black;
+    text-align: right;
+}
+
+
+.mailtexto p {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1em;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.inputmail {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+/*email*/
+
+/*footer*/
+footer {
+    background-color: lightgray;
+    padding: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon i {
+    background-color: transparent;
+}
+
+p {
+    font-size: 1em;
+    color: #0e0e0e;
+}
+
+/*footer*/
+
+/*pricing contenido*/
+
+.contenido-pricing {
+    padding: 20px 0 20px 0;
+    background-color: rgb(177, 186, 177);
+}
+
+.contenido-pricing p {
+    margin: 20px;
+}
+
+.contenidos-pricing {
+    padding: 20px 0 20px 0;
+    background-color: #c3bcbc;
+}
+
+.contenidos-pricing p {
+    margin: 20px;
+}
+
+/*pricing */
+
+/*formulario visit*/
+
+.div .form {
+    width: 100px;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+
+.contact_form {
+    width: 460px;
+    height: 600px;
+}
+
+.contact-us form {
+    width: 70%;
+    height: 60%;
+}
+
+.contact {
+
+    padding-left: 72%;
+    padding-top: 10px;
+}
+
+.contact-rd {
+
+    padding-left: 60%;
+    padding-top: 10px;
+}
+
+.contact h1 {
+
+    margin-left: 24%;
+}
+
+/*formulario visit*/
+
+/*contenido visit section*/
+.contenido img {
+    height: 100%;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+/*contenido visit section*/
+
+/*formulario contact headquarters*/
+.contact_dos {
+    display: block;
+    padding-left: 350px;
+}
+
+.contact p,
+p {
+
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.contact-us p {
+    padding-bottom: 10px;
+}
+
+.contact-us form p {
+    width: 50px;
+    margin-left: 100%;
+}
+
+form.contact-us {
+    margin-left: 60%;
+}
+
+/*titulo*/
+.form {
+    display: flex;
+    flex: grid;
+    right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+
+}
+
+/*texto*/
+
+.form h1 {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 2em;
+    padding-left: 40px;
+    color: black;
+    text-align: start;
+    left: 10px;
+    align-content: end;
+    padding-bottom: 10px;
+}
+
+.form p {
+
+    font-family: 'Franklin Gothic Medium';
+    font-size: 0.7em;
+    margin-left: 50px;
+    color: black;
+    text-align: start;
+    left: 10px;
+    align-content: end;
+}
+
+/* boton send*/
+.form button p {
+
+    width: 50px;
+    height: 10px;
+    font-size: 1em;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+
+.form input {
+    background-color: #fbfbfb;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+textarea {
+    background-color: #fbfbfb;
+    width: 500px;
+    height: 100px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 10px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+label {
+    display: block;
+    float: left;
+}
+
+button p {
+    width: 100px;
+    height: 10px;
+    bottom: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.send {
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+h1 {
+
+    font-size: 3em;
+    text-align: letf;
+    padding-bottom: 20px;
+    color: black;
+    padding-top: 10px;
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+}
+
+.formulario input:focus {
+    outline: 0;
+    border: 1px solid red;
+}
+
+.formulario textarea:focus {
+    outline: 0;
+    border: 1px solid red;
+}
+
+/*  redes sociales relaxation */
+
+.contenido-relax img {
+
+    width: 100%;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* redes sociales relaxation */
+
+/* contact animacion*/
+.cuadro {
+    height: 100px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.mensaje {
+    font-size: 2em;
+    position: relative;
+    animation: movimiento 9s linear infinite;
+}
+
+@keyframes movimiento {
+
+    from {
+        left: -100vh;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
+/* contact animacion*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        background-color: red;
+    }
+
+    .contenedor {
+        height: auto;
+    }
+
+    .contenedor-redes {
+        display: block;
+    }
+
+    .contenedor p {
+        padding-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    div .galeria a img {
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        background-color: blue;
+    }
+
+    .contenedor {
+        height: auto;
+
+    }
+
+    .contenedor-redes {
+        display: block;
+    }
+
+    .div .galeria {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-color: green;
+    }
+
+    .contenedor {
+        height: auto;
+    }
+
+    .contenedor-redes {
+        display: block;
+    }
+}
+
+@media (min-width:1025px) and (max-width: 1200px) {
+    body {
+        background-color: gray;
+    }
+
+    .contenedor {
+        height: auto;
+    }
+
+    .contenedor-redes {
+        display: block;
+    }
+
+    .contenedor p {
+        padding-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+/*mediaquerys*/

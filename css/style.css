@@ -138,7 +138,7 @@ h3 {
     width: 100%;
     display: block;
 
-    display: flex;
+
     justify-content: center;
     align-items: center;
 }
@@ -321,39 +321,7 @@ p {
 
 /*pricing */
 
-/*formulario visit*/
 
-.div .form {
-    width: 100px;
-    padding-top: 100px;
-    padding-right: 50px;
-}
-
-.contact_form {
-    display: flex;
-    justify-content: space-between;
-}
-
-.contact-us form {
-    width: 70%;
-    height: 60%;
-}
-
-.contact {
-    padding-left: 50%;
-    padding-bottom: 20px;
-}
-
-.contact-rd {
-    padding-left: 60%;
-    padding-top: 10px;
-}
-
-.contact h1 {
-    margin-left: 24%;
-}
-
-/*formulario visit*/
 
 /*contenido visit section*/
 .contenido img {
@@ -518,17 +486,7 @@ h2 {
     border: 1px solid red;
 }
 
-/*  redes sociales relaxation */
 
-.contenido-relax img {
-
-    width: 100%;
-    display: block;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-/* redes sociales relaxation */
 
 /*mediaquerys*/
 

@@ -246,6 +246,7 @@ img.contenido {
     padding-top: 20px;
     width: 90px;
     height: 40px;
+    padding-bottom: 15px;
 }
 
 /*redes sociales*/
@@ -335,33 +336,7 @@ p {
 
 /*contenido visit section*/
 
-/*formulario contact headquarters*/
-.contact_dos {
-    display: block;
-    padding-left: 350px;
-}
 
-.contact p,
-p {
-
-    padding-bottom: 10px;
-    padding-left: 10px;
-}
-
-.contact-us p {
-    padding-bottom: 10px;
-}
-
-.contact-us form p {
-    width: 50px;
-    margin-left: 100%;
-}
-
-form.contact-us {
-    margin-left: 20%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 
 /*titulo*/
 .form {
@@ -495,12 +470,25 @@ h2 {
         background-color: red;
     }
 
+    .contenido {
+        width: 80%;
+    }
+
+    .contenido img {
+        height: 100%;
+        margin-left: 10px;
+    }
+
     .contenedor {
         height: auto;
     }
 
     .contenedor-redes {
         display: block;
+    }
+
+    .redesboton {
+        padding-bottom: 15px;
     }
 
     .contenedor p {
@@ -513,7 +501,10 @@ h2 {
     h2 {
         display: flex;
         justify-content: center;
+        text-transform: lowercase;
     }
+
+
 
     div .galeria a img {
         display: flex;
@@ -532,8 +523,24 @@ h2 {
 
     }
 
+    .contenido {
+        width: 80%;
+    }
+
+    .contenido img {
+        height: 100%;
+        margin-left: 30px;
+    }
+
     .contenedor-redes {
         display: block;
+    }
+
+
+
+
+    .redesboton {
+        padding-bottom: 15px;
     }
 
     .div .galeria {
@@ -552,6 +559,10 @@ h2 {
 
     .contenedor-redes {
         display: block;
+    }
+
+    .redesboton {
+        padding-bottom: 15px;
     }
 }
 

@@ -39,6 +39,7 @@ nav li:not(:last-child) {
 
 h1 {
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -46,6 +47,7 @@ h2 {
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    text-transform: uppercase;
 
 }
 
@@ -54,6 +56,8 @@ h3 {
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    text-transform: uppercase;
+
 }
 
 
@@ -326,8 +330,8 @@ p {
 }
 
 .contact_form {
-    width: 460px;
-    height: 600px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .contact-us form {
@@ -336,19 +340,16 @@ p {
 }
 
 .contact {
-
-    padding-left: 72%;
-    padding-top: 10px;
+    padding-left: 50%;
+    padding-bottom: 20px;
 }
 
 .contact-rd {
-
     padding-left: 60%;
     padding-top: 10px;
 }
 
 .contact h1 {
-
     margin-left: 24%;
 }
 
@@ -389,7 +390,9 @@ p {
 }
 
 form.contact-us {
-    margin-left: 60%;
+    margin-left: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*titulo*/
@@ -527,31 +530,7 @@ h2 {
 
 /* redes sociales relaxation */
 
-/* contact animacion*/
-.cuadro {
-    height: 100px;
-    overflow: hidden;
-    width: 100%;
-}
-
-.mensaje {
-    font-size: 2em;
-    position: relative;
-    animation: movimiento 9s linear infinite;
-}
-
-@keyframes movimiento {
-
-    from {
-        left: -100vh;
-    }
-
-    to {
-        left: 100%;
-    }
-}
-
-/* contact animacion*/
+/*mediaquerys*/
 
 @media (min-width: 320px) and (max-width: 480px) {
     body {

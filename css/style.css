@@ -62,6 +62,7 @@ h3 {
 
 h4 {
     margin-left: 35%;
+    padding: 10px 10px;
 }
 
 /*navegacion*/
@@ -232,6 +233,15 @@ img.contenido {
 .redesuno img {
     display: block;
     width: 100%;
+}
+
+.redesdos img {
+    display: block;
+    width: 100%;
+}
+
+.redesdos h4 {
+    margin-left: 35%;
 }
 
 .contenedor-redes {
@@ -588,7 +598,7 @@ h2 {
     }
 
     h4 {
-        margin-left: 40%;
+        margin-left: 47%;
     }
 }
 
